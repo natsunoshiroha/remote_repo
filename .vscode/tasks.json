@@ -21,6 +21,7 @@
         },
         {
             "label": "build",
+            "dependsOrder": "sequence",
             "dependsOn": [
                 "cmake",
                 "make"
